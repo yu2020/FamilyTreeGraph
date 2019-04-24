@@ -1,0 +1,19 @@
+digraph Output {
+ rankdir=LR;
+ size="8,5"
+node [shape=circle] [color=blue];
+"Eddard Stark" -> "Arya Stark" [label = "father"];
+"Eddard Stark" -> "Bran Stark" [label = "father"];
+"Eddard Stark" -> "Rickon Stark" [label = "father"];
+"Eddard Stark" -> "Robb Stark" [label = "father"];
+"Eddard Stark" -> "Sansa Stark" [label = "father"];
+"Lyanna Stark" -> "Jon Snow" [label = "mother"];
+"Rickard Stark" -> "Eddard Stark" [label = "father"];
+"Rickard Stark" -> "Lyanna Stark" [label = "father"];
+"Rhaegar Targaryen" -> "Jon Snow" [label = "father"];
+"Catelyn Tully" -> "Arya Stark" [label = "mother"];
+"Catelyn Tully" -> "Bran Stark" [label = "mother"];
+"Catelyn Tully" -> "Rickon Stark" [label = "mother"];
+"Catelyn Tully" -> "Robb Stark" [label = "mother"];
+"Catelyn Tully" -> "Sansa Stark" [label = "mother"];
+}
